@@ -1,6 +1,6 @@
 package entities;
 
-public class SavingsAccount extends Account {
+public class SavingsAccount extends Account { // final implica que a classe não pode mais ser herdada ou criada novas sub-classes
 	// Atributos
 	private Double interestRate; // Taxa de juros
 	

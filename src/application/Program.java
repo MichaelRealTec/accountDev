@@ -5,6 +5,13 @@ import entities.SavingsAccount;
 public class Program {
 
 	public static void main(String[] args) {
+		// Classes e métodos usando o Final
+		// final aplicado a Classe evita que a Classe seja herdada.
+		// final aplicado ao método evita o reuso na sub-classe
+		// public final class SavingsAccount {  => evita que a Classe SavingsAccount seja herdada ou seja criada sub-classes
+		
+		
+		
 		
 		Account acc10 = new Account(0001, "Clara", 1000.0);
 		acc10.withdraw(200.0);
