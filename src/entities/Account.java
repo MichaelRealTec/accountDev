@@ -4,8 +4,8 @@ public class Account {
 	// Atributos
 	private Integer number;
 	private String holder;
-	private Double balance;
-	
+	protected Double balance; // private só pode ser acessado pela classe account.
+	// protected pode ser acessado pela subClasse e pela Classe Account.
 	// Método Getter e Setter
 	
 	public void setNumber(Integer number) {
