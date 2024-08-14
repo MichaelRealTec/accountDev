@@ -6,6 +6,19 @@ public class Program {
 
 	public static void main(String[] args) {
 		
+		Account acc10 = new Account(0001, "Clara", 1000.0);
+		acc10.withdraw(200.0);
+		System.out.println(acc10.getBalance());
+		
+		Account acc20 = new SavingsAccount(0002, "Carla", 1000.0, 0.01);
+		acc20.withdraw(200.0);
+		System.out.println(acc20.getBalance());
+		
+		Account acc30 = new BusinessAccount(0003, "Jana", 1000.0, 500.0);
+		acc30.withdraw(200.0);
+		System.out.println(acc30.getBalance());
+		
+		
 		Account acc = new Account(1001, "Alex", 0.0);
 		BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
 		

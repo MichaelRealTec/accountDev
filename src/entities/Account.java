@@ -43,8 +43,8 @@ public class Account {
 		this.balance = balance;
 	}
 	// Método
-	public void withdraw(Double amount) { // Operação de saque
-		balance -= amount;
+	public void withdraw(double amount) { // Operação de saque
+		balance -= amount + 5.0;
 	}
 	
 	public void deposit(double amount) {

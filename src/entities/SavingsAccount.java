@@ -29,4 +29,9 @@ public class SavingsAccount extends Account {
 	public void updateBalance() {
 		balance += balance * interestRate;
 	}
+	
+	@Override // Se apagar o @Override não aprsenta erro mas se estiver o @override o copilador vai procurar na Super-Classe e avisar se houver erro
+	public void withdraw(double amount) {
+		balance -= amount;
+	}
 }
